@@ -2,10 +2,10 @@
 body {
   margin:0;
 }
-a {
-  color:black;
+/* a {
+  color: currentColor;
   text-decoration: none;
-}
+} */
 #active {
   color:blue;
 }
@@ -47,4 +47,8 @@ ol {
 #youtube {
   display:block;
   text-align: center;
+}
+
+#night_day {
+  text-align:right;
 }
