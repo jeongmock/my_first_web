@@ -13,20 +13,12 @@
 
   gtag('config', 'G-M0JCSS8NPL');
 </script>
+<script src="colors.js"></script>
 </head>
 <body>
   <div id ="night_day">
     <input type="button" value="Night" onclick="
-    if(this.value==='Night') {
-      document.querySelector('body').style.backgroundColor ='black';
-      document.querySelector('body').style.color = 'white'
-      this.value ='Day'
-    }
-    else {
-      document.querySelector('body').style.backgroundColor ='white';
-      document.querySelector('body').style.color = 'black'
-      this.value ='Night'
-    }
+      nightDayHandler(this);
     ">
   </div>
   <h1><a href="index.html">WEB</a></h1>
